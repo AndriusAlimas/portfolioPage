@@ -224,6 +224,7 @@ nav {
   }
 }
 
+/* About Me */
 .about-me {
   max-width: 1000px;
   margin: 0 auto;
@@ -262,4 +263,11 @@ nav {
     position: relative;
     z-index: 2;
   }
+}
+
+/*My Work */
+.my-work {
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+  text-align: center;
 }
