@@ -70,7 +70,7 @@ strong {
 /* Buttons */
 .btn {
   display: inline-block;
-  padding: 0.5em 1.5em;
+  padding: 0.5em 2.5em;
   background: var(--clr-accent);
   color: var(--clr-dark);
   text-decoration: none;
@@ -202,6 +202,10 @@ nav {
   opacity: 0.35;
 }
 
+.services {
+  margin-bottom: 4em;
+}
+
 .service {
   max-width: 500px;
   margin: 0 auto;
@@ -211,7 +215,8 @@ nav {
   .services {
     display: flex;
     max-width: 1000px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .service + .service {
