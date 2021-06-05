@@ -130,10 +130,9 @@ h3 {
 }
 
 /* Header */
-nav {
-  display: none;
+.logo {
+  max-width: 150px;
 }
-
 /* Intro section */
 .intro {
   position: relative;
@@ -309,6 +308,7 @@ footer {
   color: var(--clr-accent);
   text-align: center;
   padding: 2.5em 0;
+  font-size: var(--fs-h3);
 }
 
 footer a {
@@ -317,7 +317,6 @@ footer a {
 }
 
 .footer__link {
-  font-size: var(--fs-h3);
   font-weight: var(--fw-bold);
 }
 
@@ -332,4 +331,17 @@ footer a {
 
 .social-list {
   list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 2em 0 0;
+  padding: 0;
+}
+
+.social-list__item {
+  margin: 0 0.5em;
+}
+
+.social-list__link {
+  font-size: var(--fs-h2);
+  padding: 0.5em;
 }
