@@ -176,6 +176,17 @@ header {
   color: var(--clr-accent);
 }
 
+.nav-toggle {
+  padding: 0.5em;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  z-index: 200;
+}
+
 .hamburger {
   display: block;
   position: relative;
