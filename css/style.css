@@ -188,8 +188,12 @@ header {
 }
 
 /* this class will be added when we click toggle button and will disipear when we click again */
-.nav-open {
-  background: red;
+.nav-open .nav {
+  transform: translateX(0);
+}
+
+.nav-open .nav-toggle {
+  position: fixed;
 }
 
 .hamburger {
@@ -200,7 +204,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-  background: var(--clr-dark);
+  background: var(--clr-accent);
   width: 2em;
   height: 3px;
   border-radius: 1em;
