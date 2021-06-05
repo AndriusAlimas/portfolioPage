@@ -176,6 +176,15 @@ header {
   color: var(--clr-accent);
 }
 
+.hamburger {
+  background: var (var(--clr-dark));
+  width: 2em;
+  height: 3px;
+  border-radius: 1em;
+  display: block;
+  position: relative;
+}
+
 /* Intro section */
 .intro {
   position: relative;
